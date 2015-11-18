@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+body {
+	text-align: center;
+	font-family: Arial, Verdana, Sans-serif;
+	font-size: 12px;
+	padding: 30px 0;	
+}
+body,a {
+	color: #333;
+}
+#wrapper {
+	width: 312px;
+	margin: 0 auto;
+	text-align: left;
+}
+.field,.area {
+	border: solid 1px #aaa;
+	padding: 5px;
+	width: 300px;
+	clear: both;
+}
+.area {
+	height: 100px;
+}
+.dn,.processing {
+	display: none;
+}
+.edit,.close {
+	display: block;
+	padding-bottom: 10px;
+}
+.processing {
+	float: right;
+	margin-top: 3px;
+}
